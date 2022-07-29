@@ -3,7 +3,7 @@ from predict import get_result
 import requests
 import json
 
-word = "description"
+word = "super super lange beschrijvng"
 labels = ['EAN', 'GTIN',  'Title', 'Description', 'Short description', 'Medium description','Long description']
 
 request = requests.post("http://localhost:8501/v1/models/test:predict", data=json.dumps({"instances":[bag(word)]}))

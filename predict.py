@@ -1,5 +1,6 @@
 import numpy as np
 from bag_and_bow import bag
+
 def get_result(result, labels):
     ERROR_THRESHOLD = 0.1
 

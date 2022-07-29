@@ -32,3 +32,5 @@ def bow(label:str, labels: list[str], show_details=False) -> list[int]:
                 print("found: '%s' in: %s" % (label, labels))
                 print("at index %i" % (i))
     return bag
+
+print(bag("test"))
